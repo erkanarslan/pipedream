@@ -24,7 +24,6 @@
     "example": "examples"
   },
   "scripts": {
-    "prepare": "husky install",
     "build": "npx tsc --build | node scripts/tsPostBuild.mjs",
     "test": "jest --passWithNoTests components",
     "test-all": "npm test && npm run platform-test && npm run types-test",
@@ -46,7 +45,6 @@
     "eslint-plugin-putout": "^15.1.1",
     "graphql": "14 - 16",
     "graphql-request": "^3.7.0",
-    "husky": "^7.0.4",
     "jest": "^27.5.1",
     "lint-staged": "^12.3.4",
     "pnpm": "^7.0.1",
